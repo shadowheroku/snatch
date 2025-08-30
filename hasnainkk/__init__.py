@@ -55,7 +55,7 @@ SUDO = [5196578270, 6138142369, 6346273488, 6346273488, 6143079414, 6495101094]
 OWNER_ID = 6138142369
 sudo_users = [5196578270, 6138142369, 6346273488, 6346273488, 6143079414, 6495101094]
 
-BASE_API_URL = "mongodb+srv://hasnainkk:hasnainkk@cluster0.mmvls.mongodb.net/?retryWrites=true&w=majority"
+BASE_API_URL = "mongodb+srv://ryumasgod:ryumasgod@cluster0.ojfkovp.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
 mongo_url = BASE_API_URL
 # --------------------- TELEGRAM BOT CONFIGURATION -----------------------
 command_filter = f.create(lambda _, __, message: message.text and message.text.startswith("/"))
