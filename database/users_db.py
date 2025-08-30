@@ -14,7 +14,7 @@ INSERTION_LOCK = RLock()
 class Users(MongoDB):
     """Class to manage users for bot."""
 
-    db_name = "users"
+    db_name = "monicusers"
 
     def __init__(self, user_id: int) -> None:
         super().__init__(self.db_name)
